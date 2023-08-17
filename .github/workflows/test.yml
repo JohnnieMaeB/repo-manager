@@ -1,0 +1,11 @@
+name: Git Commit Commentor
+description:
+
+on: [push]
+
+jobs:
+  hello_world_job:
+    runs-on: ubuntu-latest
+    name: A job to say hello
+    steps:
+      uses: git-commit-commentor@main

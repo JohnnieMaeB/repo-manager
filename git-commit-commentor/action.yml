@@ -1,0 +1,9 @@
+name: Git Commit Commentor
+description:
+runs:
+  using: "composite"
+  steps:
+    - name: Commit
+      shell: bash
+      run: |
+        echo ${{ github.event }}
